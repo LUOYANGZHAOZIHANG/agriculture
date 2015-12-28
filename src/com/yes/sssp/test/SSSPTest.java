@@ -32,6 +32,11 @@ public class SSSPTest {
 		List<Department> departments = query.setHint(QueryHints.HINT_CACHEABLE, true).getResultList(); 
 		entityManager.clear(); 
 	}
+	@Test
+	public void testisTrue(){
+		System.out.println("这是真的");
+		return;
+	}
 	
 	@Test
 	public void testRepositorySecondLevelCache(){
