@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px;}
+body{ font-size:12px; font-family:"微软雅黑";}
+a{ text-decoration:none; color:#333;}
+a:hover{ color:#0da945;}
+li{ list-style:none;}
+
+#headtopbg{ width:100%; height:35px; background:#eee;  }
+#headtop,#head,#nav,#banner,#gaochan,#shang,#jinrong,#nongzi,#foot{ width:1200px;margin:0px auto;}
+ .topleft{ width:254px; float:left;}
+ .topright{ width:600px; float:right;}
+   .rightli{ width:80px; line-height:35px; float:right; font-size:14px;}
+   
+   
+#head{ height:120px; clear:both;}
+  .logo{ width:254px; float:left;}
+  .search{ width:345px; height:40px; float:right; margin-top:50px;}
+  .search input{ height:40px; line-height:40px; font-family:"微软雅黑"; font-size:14px; border:1px solid #ef831a;}
+  .search input[name="keyboard"]{ width:288px; margin-right:-5px; float:left;}
+  .search input[name="submit"]{ width:54px; height:40px; float:right;}
+
+
+#nav{ height:50px; background:#0da945; clear:both;}
+  .navli{ width:110px; height:48px; margin-top:1px; line-height:48px; text-align:center; font-size:16px; float:left; margin-left:7px;}
+  .navli a{ color:#fff; display:block;}
+  .navli a:hover{ background:#FFF; color:#0da945;}
+  
+ 
+#banner{ height:320px; margin:10px auto; clear:both;}
+  #bannerleft{ width:230px; float:left; border:1px solid #0da945; }
+  .leftmenu1{ width:210px; height:83px; margin-left:10px; border-bottom:1px solid #ddd; margin-top:7px;}
+    .title{ height:30px; line-height:30px; font-size:16px;  clear:both;}
+    .menuli{ width:70px; height:25px; float:left; line-height:25px;}
+  .leftmenu2{ width:210px; height:60px; margin-left:10px; border-bottom:1px solid #ddd; margin-top:7px;}
+  
+  #bannercenter{ width:660px; height:320px; float:left; margin-left:10px; overflow:hidden; position:relative;}
+     .dian{ position:absolute; right:5px; bottom:5px; z-index:100;}
+     .imgli{ width:8px; height:8px; border-radius:50%; float:left; background:#0da945; margin-right:5px;}
+	 .imgli.on{ background:#ef831a;}
+	 
+  #bannerright{ width:285px; float:right; margin-right:0px; border:1px solid #0da945;}
+    .news{ width:260px; height:140px; margin-left:10px; }
+	.newstitle{ height:30px; font-size:16px; line-height:30px; border-bottom:1px solid #ddd;}
+	.newsli{ height:25px; line-height:25px; }
+	.hy{ width:260px; height:50px; margin-left:10px;}
+	.hyli{ width:50px; float:left; margin-right:20px; margin-left:10px;}
+    .baoming{ width:260px; height:118px; margin-left:10px; clear:both;}
+    .baomingtitle{ height:35px; line-height:30px; border-bottom:1px solid #ddd; font-size:16px;} 
+	.baoming table{ width:260px; height:70px; margin-top:5px;}
+	.baoming table tr{ height:30px; margin-top:5px;}
+	.baoming table td input{ height:30px; line-height:30px; border:1px solid #0da945; border-radius:3px;}
+	.baoming table td input[name="name"]{ width:180px;}
+	.baoming table td input[name="phone"]{ width:180px;}
+	.baoming table td input[name="submit"]{ width:70px; height:60px; margin-left:5px;}
+    
+	
+#gaochan{ height:400px; margin:20px auto; position:relative;}
+  .gctitlebg{ width:1200px; height:40px; border-bottom:2px solid #0da945;}
+  .gctitle{ width:120px; height:38px; line-height:38px; text-align:center; border-bottom:3px solid #ef831a; font-size:20px; }
+  
+  .tuping{ width:289px; height:338px; float:left; margin-top:20px; position:relative; }
+  
+  .centertop{ width:605px; height:160px; float:left; margin-left:10px; margin-top:20px; position:relative; }
+  	.tugai{ width:330px; float:left; position:relative; }
+	.qixiang{ width:265px; float:right; margin-left:10px; position:relative; }
+	
+  .centerbottom{ width:605px; height:170px; float:left; margin-left:10px; margin-top:10px; position:relative;}
+    .nognzi{ width:260px; float:left; position:relative; }
+	.gaochan{ width:330px; position:absolute; top:0px; right:5px;}
+	
+   .liangcao{  width:294px; height:342px; position:absolute; top:60px; right:-5px;}   
+   
+   .confont{ height:40px; background:rgba(255,255,255,0.7); line-height:40px; text-align:center; font-size:18px; font-weight:500; font-family:"微软雅黑"; position:absolute; z-index:200;}
+    .con1{ width:289px; left:0px; bottom:0px;}
+	.con2{ width:330px; left:0px; bottom:0px;}
+	.con3{  width:265px; right:0px; bottom:0px;}
+	.con4{ width:260px; left:0px; bottom:0px;}
+	.con5{ width:330px; right:0px; bottom:0px;}
+	.con6{ width:294px; right:0px; bottom:0px;}
+	
+	
+#shang{ height:310px; margin:0px auto; }
+  .shangtitle{ width:100px; height:38px; line-height:38px; text-align:center;  border-bottom:3px solid #ef831a; font-size:20px; }
+  .shangcon{ width:1200px; height:250px; margin:20px auto;}
+   .shangli{ width:290px; float:left; line-height:25px; font-size:16px; font-weight:500; text-align:center; margin-right:13px;}
+     .bm{ width:120px; height:30px; line-height:30px; text-align:center; font-size:14px; border:1px solid #0da945; margin:5px auto;}
+   .last{ float:right; margin-right:0px;}
+   
+   
+#jinrong{ height:400px; margin:20px auto; clear:both;}
+  .jrcon{ width:1200px; height:330px; margin:20px auto;}
+  .jrli{ width:290px; height:330px; background:url(../images/jrbg.jpg); float:left; font-size:18px; line-height:40px; text-align:center; margin-right:13px;}
+  .last{ float:right; margin-right:0px;}
+   
+  
+#nongzi{ height:290px; margin:20px auto;} 
+  .nzcon{ width:1200px; height:220px; margin:20px auto;}
+  .nzli{ width:290px; height:220px; float:left; font-size:18px; line-height:30px; text-align:center; margin-right:13px;}
+  .last{ float:right; margin-right:0px;}
+
+
+#footer{ width:100%; height:220px;  background:#028c33; padding-top:50px;}
+  .footleft{ float:left;}
+  .footright{ float:right;}
+  .footright .gz{ width:120px; height:30px; line-height:30px; text-align:center; color:#fff; font-size:16px; padding-left:25px;}
